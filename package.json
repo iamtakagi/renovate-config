@@ -1,0 +1,17 @@
+{
+  "name": "renovate-config",
+  "version": "0.0.1",
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/iamtakagi/renovate-config"
+  },
+  "scripts": {
+    "format": "prettier --write default.json",
+    "validate": "renovate-config-validator default.json"
+  },
+  "devDependencies": {
+    "prettier": "^2.8.8",
+    "renovate": "^35.113.0"
+  }
+}
